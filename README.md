@@ -1,10 +1,8 @@
 # Arrrr-R
 -----------------
 
-Avast ye maties!
+## Avast ye maties!
 
 Fear my crumby code, for it is craptacular!
 
-Now with extra SSH.
-
-For the lulz...
+A repository just for holding files I create while teaching myself R.
