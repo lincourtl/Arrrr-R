@@ -2,4 +2,4 @@
 
 Avast ye maties!
 
-Fear my crumby code!
+Fear my crumby code, for it is craptacular!
