@@ -6,3 +6,5 @@ Avast ye maties!
 Fear my crumby code, for it is craptacular!
 
 Now with extra SSH.
+
+For the lulz.
