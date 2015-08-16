@@ -6,3 +6,4 @@ tinycrumbs <- crumbydata / pi^10
 tinycrumbs
 badcrumbs <- crumbydata / 0
 badcrumbs
+save.image("mydata.RData")
