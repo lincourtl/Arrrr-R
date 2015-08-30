@@ -4,21 +4,21 @@ data <- rnorm(100, sd=15)+1:100
 # with long labels to enhance
 # size comparison
 my_sc_plot <- function(data){
-  par(cex.lab=1.5, cex.main=2)
+  par(cex.lab=0.75, cex.axis=0.5, cex.main=1.25, cex=3, pch=13)
   plot(data,
        main="A simple scatterplot",
-       xlab="A random variable plotted",
-       ylab="Some rnorm value",
+       xlab="Plotting randomness",
+       ylab="Some rnorm values",
        col="steelblue")
   x <- 1:100
   abline(lm(data~x), lwd=2)
 }
 
-png(filename="Std_PNG_cairo.png", 
+png(filename="mycairotest.png", 
     type="cairo",
-    units="in", 
-    width=5, 
-    height=4, 
+    units="px", 
+    width=1600, 
+    height=1000, 
     pointsize=12, 
     res=96)
 my_sc_plot(data)
